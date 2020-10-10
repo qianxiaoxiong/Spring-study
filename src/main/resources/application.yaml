@@ -1,0 +1,50 @@
+ly:
+ configuration:
+  name: qlb
+  sex: 男
+  girlfriends:   #list<String>  Array(String[])
+    - girlsOne
+    - girlsTwo
+    - girlsThree
+  listObject:   #List<Person>
+    - { sex: 男, name: 这里的上路十八弯}
+    - { sex: 女, name: 己编写了一个工程}
+    - { sex: 男, name: 唱功第一}
+###等价于
+# listOject:
+#   -  sex: 男
+#      name: 这里的上路十八弯
+#   -  sex: 女
+#      name: 己编写了一个工程
+#   -  sex: 男
+#      name: 唱功第一
+
+
+myMap:
+    k1: v1,
+    k2: v2,
+    k3: v3
+###等价于
+myMap[k1]:v1
+myMap[k2]:v1
+myMap[k3]:v1
+
+##复杂map
+myAdvanceMap:
+      k1: {
+            name: zs
+            sex: 男
+      }
+      k2: {
+            name: xh
+            sex: 女
+      }
+###等价于
+#myAdvanceMap[k1]:
+#      name: zs
+#      sex: 男
+#myAdvanceMap[k2]:
+#      name: xh
+ #     sex: 女
+
+

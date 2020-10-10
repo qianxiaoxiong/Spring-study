@@ -1,0 +1,12 @@
+ly:
+ configuration:
+  name: qlb
+  sex: 男
+  girlfriends:   #list  Array
+    - girlsOne
+    - girlsTwo
+    - girlsThree
+  listObject:
+    - { sex: 男, name: 这里的上路十八弯}
+    - { sex: 女, name: 己编写了一个工程}
+    - { sex: 男, name: 唱功第一}
